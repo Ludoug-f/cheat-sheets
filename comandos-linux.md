@@ -1,4 +1,4 @@
-| Comando                    | Significado                                                                                                  |
+| COMANDO                    | DESCRIÇÃO                                                                                                  |
 |----------------------------|--------------------------------------------------------------------------------------------------------------|
 | `touch arquivo.extensao`   | Cria um arquivo com o nome e a extensão desejados.                                                           |
 | `ls`                       | Lista arquivos e diretórios.                                                                                |
