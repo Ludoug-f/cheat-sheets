@@ -1,3 +1,5 @@
+## Comandos Gerais
+
 | COMANDO                               | DESCRIÇÃO                                                     |
 |--------------------------------------|---------------------------------------------------------------|
 | `git init`                            | Transforma uma pasta em um repositório Git.                   |
@@ -20,3 +22,17 @@
 | `git reset nome-do-arquivo`            | Remove um arquivo específico da staging area.                  |
 | `git stash`                            | Salva as alterações locais em um local temporário.            |
 | `git stash pop`                        | Recupera as alterações salvas anteriormente com `git stash`.   |
+
+## Configurações
+
+| Comando                                       | Descrição                                        |
+|-----------------------------------------------|--------------------------------------------------|
+| `git config --global user.name "Nome"`        | Define o nome do usuário.                       |
+| `git config --global user.email "Email"`       | Define o email do usuário.                      |
+| `git config --global core.editor "Nome do editor"` | Define o editor de texto padrão.            |
+| `git config --global core.pager "Nome do pager"`   | Define o pager padrão.                       |
+| `git config --global core.excludesfile "Nome do arquivo"` | Define o arquivo de exclusão padrão.  |
+| `git config --global alias.nome-do-alias "Comando"` | Cria um alias para um comando.          |
+| `git config --global --unset alias.nome-do-alias` | Remove um alias.                            |
+| `git config --global --edit`                   | Abre o arquivo de configuração do Git.        |
+| `git config --global --list`                   | Lista as configurações do Git.                |
