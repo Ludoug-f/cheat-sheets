@@ -6,8 +6,8 @@ Sinta-se à vontade para explorar e usar essas dicas para sua própria referênc
 
 ## Tabela de Conteúdo
 
-- [Comandos Linux](comandos-linux.md)
-- [Comandos Git](comandos-git.md)
+- [Comandos Linux](Linux.md)
+- [Comandos Git](Git.md)
 - [Links de Utilitários](utils-links.md)
 
 ## Utilização
