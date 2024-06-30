@@ -4,7 +4,7 @@ Criar um "CharacterBody2D" e adiciona um "Sprite2D", colocar o tileset do person
 
 Cria um "CollisionShape2D", em caso de jogo com camera "top-down" mover o pé do personagem para o X0,Y0.
 
-se for usar Pixel Art, mudar nas configuraçoes do projeto ou do Sprite o filtro de textura para "Nearest".
+Caso for usar Pixel Art, mudar nas configuraçoes do projeto ou do Sprite o filtro de textura para "Nearest".
 Project Settings -> General -> Texture -> "Default Texture Filter" = "Nearest" ou Sprite2D -> "CanvasItem" -> "Texture" -> "Filter" = "Nearest"
 
 *Animação*: Criar "AnimationPlayer" dentro do "CharacterBody2D" e adicionar a animação usando o painel inferior. clicar no "Animation" e adicionar a animação.
@@ -19,4 +19,12 @@ Usando "Frame" e clicando na "Key" para adicionar a posição do personagem.
 
 *lerp*: função que faz a interpolação linear entre dois pontos. uma especie de movimento suave entre dois pontos.
 
+*Singleton*: é um script que é carregado automaticamente e pode ser acessado por qualquer script. é util para guardar informações que precisam ser acessadas por qualquer script.
+
 *Autoload*: é um script que é carregado automaticamente quando o jogo inicia. é util para guardar informações que precisam ser acessadas por qualquer script. Project Settings -> Autoload -> adicionar o script.
+
+*class_name*: é uma declaração que define o nome da classe do script. é util para criar scripts que podem ser usados em qualquer objeto.
+
+Para usar mais de um script em um node, criar um Node como filho e adicionar os scripts.
+
+Criar um grupo de nodes: selecionar os nodes -> clica com o botão direito -> "Group" -> criar um nome para o grupo.
