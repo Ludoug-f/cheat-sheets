@@ -28,3 +28,5 @@ Usando "Frame" e clicando na "Key" para adicionar a posição do personagem.
 Para usar mais de um script em um node, criar um Node como filho e adicionar os scripts.
 
 Criar um grupo de nodes: selecionar os nodes -> clica com o botão direito -> "Group" -> criar um nome para o grupo.
+
+*Area2D*: é um node que detecta colisões e sobreposições com outros nodes. é util para criar áreas de detecção de colisão.
