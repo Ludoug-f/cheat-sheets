@@ -30,3 +30,8 @@ Para usar mais de um script em um node, criar um Node como filho e adicionar os 
 Criar um grupo de nodes: selecionar os nodes -> clica com o botão direito -> "Group" -> criar um nome para o grupo.
 
 *Area2D*: é um node que detecta colisões e sobreposições com outros nodes. é util para criar áreas de detecção de colisão.
+
+Mudar a cor do node: selecionar o node -> "Modulate" -> escolher a cor.
+No codigo definir o "modulate" para mudar a cor do node. ex: modulate = Color.red ou Color(1,0,0)
+Pra adicionar efeito de transição de cor, usar o tween. "easings.net" para ver os efeitos.
+pra usar o tween, criar um "Tween" e adicionar o efeito desejado. depois chamar o "start" do tween.
